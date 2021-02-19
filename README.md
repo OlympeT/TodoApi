@@ -15,8 +15,14 @@ dotnet tool update -g dotnet-aspnet-codegenerator
 dotnet aspnet-codegenerator controller -name TodoItemsController -async -api -m TodoItem -dc TodoContext -outDir Controllers
 ```
 
+## Apis
+
 `GET /api/TodoItems`	     Obtenir toutes les tâches
+
 `GET /api/TodoItems/{id}`	 Obtenir un élément par ID
+
 `POST /api/TodoItems`	     Ajouter un nouvel élément
+
 `PUT /api/TodoItems/{id}`	 Mettre à jour un élément existant
+
 `DELETE /api/TodoItems/{id}` Supprimer un élément
