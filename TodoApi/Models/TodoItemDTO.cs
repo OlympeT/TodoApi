@@ -1,7 +1,6 @@
-﻿using System;
-namespace TodoApi.Models
+﻿namespace TodoApi.Models
 {
-    public class TodoItemDTO
+    public class TodoItemDto
     {
         public long Id { get; set; }
         public string Name { get; set; }
